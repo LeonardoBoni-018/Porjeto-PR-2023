@@ -1,0 +1,214 @@
+body{
+    background-color: #f2e9e4;
+}
+
+#fundo{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #9a8c98;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#botao_cabecalho{
+    background-color: #c9ada7 ;
+    height: 30px;
+    padding: 10px;
+}
+
+.sub_home{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.home {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #22223b;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    height: 30px;
+    width: 100px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .home:disabled {
+    pointer-events: none;
+   }
+   
+   .home:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .home:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+#titulo{
+    color: #22223b;
+    text-align: center;
+    font-size: 38px;
+    margin: 0 auto;
+}
+
+#subtitulo{
+    color: #4a4e69;
+    text-align: center;
+    font-size: 25px;
+}
+
+#titulo_header{
+    text-align: center;
+    color: #22223b;
+    font-size: 30px;
+}
+
+.botao{
+    text-align: center;
+}
+
+.botoes {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    height: 50px;
+    width: 300px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .botoes:disabled {
+    pointer-events: none;
+   }
+   
+   .botoes:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .botoes:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+
+
+   #rodape{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #c9ada7;
+    color: #22223b;
+    text-align: center;
+    height: auto;
+   }
+
+   #titulo_corpo_exatas{padding: 20px;
+    text-align: center;
+    font-size: 25px;
+   }
+
+   #descricao_curso{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+   }
+
+   #corpo_exatas{
+    text-align: center;
+   }
+
+   #titulo_exatas{
+    font-size: 30px;
+    color: #22223b;
+   }
+
+
+    #exatas{ border-radius: 25px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #9a8c98;
+    height: 700px;
+    width: 500px;
+}
+
+
+
+.botao_cursos {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    height: 50px;
+    width: 300px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   .botao_cursos:disabled {
+    pointer-events: none;
+   }
+   
+   .botao_cursos:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .botao_cursos:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
